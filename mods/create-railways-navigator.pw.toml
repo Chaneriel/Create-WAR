@@ -1,0 +1,25 @@
+filename = 'createrailwaysnavigator-neoforge-1.21.1-beta-0.9.0-C6.jar'
+name = 'Create Railways Navigator'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.21.1-beta-0.9.0-C6'
+
+[download]
+hash = '7cdd7b475499b679aa56fd7f77f69c8c3046313426edf047b49af8a12f40817706c177bb063a1b7665fe9d57155cee4b8d8661b45d9d9b5710c91f09628b54bc'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Dq3STxps/versions/n4iiBI1w/createrailwaysnavigator-neoforge-1.21.1-beta-0.9.0-C6.jar'
+
+[update.modrinth]
+mod-id = 'Dq3STxps'
+version = 'n4iiBI1w'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'sbIsGaOV'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'

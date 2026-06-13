@@ -1,0 +1,18 @@
+filename = 'dyeable-components-1.0.3+mc1.21.1.jar'
+name = 'Create Aeronautics: Dyeable Components'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.3+mc1.21.1'
+
+[download]
+hash = 'eeae7b1060895d46296eed5623789aa6d367ae04aaf3dac569a5a670d63c66f5336ed6be4510b76901330221b4d4c83c5deaf4f1186f5286e3342c4a4f7958ac'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/LBYQlFkX/versions/ECPnqd70/dyeable-components-1.0.3%2Bmc1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'LBYQlFkX'
+version = 'ECPnqd70'

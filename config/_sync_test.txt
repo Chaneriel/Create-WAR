@@ -1,0 +1,6 @@
+Sync test marker placed on the DESKTOP (CHANCEPC) at the config folder.
+
+If this file appears in the laptop's copy of the instance after you launch
+Create: WAR, then Prism's PRE-LAUNCH pull is firing correctly.
+
+Safe to delete anytime.

@@ -1,0 +1,45 @@
+#Climbing motion (blocks per tick).
+[climbing]
+	#Vertical speed when holding forward to climb up.
+	# Default: 0.18
+	# Range: 0.0 ~ 5.0
+	climbSpeed = 0.18
+	#Vertical speed when holding back to climb down.
+	# Default: 0.22
+	# Range: 0.0 ~ 5.0
+	descendSpeed = 0.22
+	#Upward impulse applied when jumping off the rope.
+	# Default: 0.42
+	# Range: 0.0 ~ 5.0
+	jumpOffVelocity = 0.42
+	#Maximum angle from vertical (in degrees) at which a hanging rope segment can be grabbed for climbing.
+	#0 = only perfectly vertical ropes; 90 = any angle including horizontal. Increase to climb diagonal lines.
+	# Default: 31.79
+	# Range: 0.0 ~ 90.0
+	maxClimbAngleFromVertical = 31.79
+
+#Sprint-while-descending slide mechanics.
+[sliding]
+	#Maximum slide speed.
+	# Default: 1.2
+	# Range: 0.0 ~ 10.0
+	slideSpeed = 1.2
+	#How quickly the slide ramps up to slideSpeed.
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	slideAcceleration = 0.05
+	#How quickly the slide eases out after releasing back.
+	# Default: 0.04
+	# Range: 0.0 ~ 1.0
+	slideDeceleration = 0.04
+
+#Toggle individual climbing features.
+[features]
+	#Allow climbing vertical hanging ropes.
+	allowVerticalRopeClimbing = true
+	#Allow climbing rope lines between two plungers.
+	allowPlungerClimbing = true
+	#Allow ziplining along plunger rope lines while holding a CHAIN_RIDEABLE-tagged item (e.g. Create's wrench), mirroring Simulated's existing zipline on hanging rope strands.
+	allowPlungerZipline = true
+	#Allow mantling onto the block above the rope when jumping off at its top end. When disabled, jumping off at the top performs a normal upward impulse instead.
+	allowBlockMantle = true

@@ -1,0 +1,18 @@
+filename = 'old_infrastructure-1.2.1-neoforge-1.21.1.jar'
+name = 'Create: Old Infrastructure'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.2.1'
+
+[download]
+hash = '0009a9fe1217d5d9456e5836168fa156b2cfa2e88d01750e69faedbf600361978edc5ca9b70e10100f0a90265f99ff24af9e20c1b407da5ed5fd59875f957e68'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/h7UjQwqh/versions/kNxg2jFz/old_infrastructure-1.2.1-neoforge-1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'h7UjQwqh'
+version = 'kNxg2jFz'

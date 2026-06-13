@@ -1,0 +1,116 @@
+#Gameplay values shared between client and server
+[common]
+	#Base thrust at 100% throttle for normal (non-beam, non-soul) thrusters. Default 640 gives ~2.94 kpN at full throttle in standard atmosphere.
+	# Default: 640.0
+	# Range: 1.0 ~ 100000.0
+	thrusterBaseThrust = 640.0
+	#Base airflow at 100% throttle
+	# Default: 80.0
+	# Range: 0.0 ~ 100000.0
+	thrusterBaseAirflow = 80.0
+	#Base fuel usage in mB/t at 100% throttle for a neutral fuel
+	# Default: 5.6
+	# Range: 0.01 ~ 1000.0
+	thrusterBaseFuelUsePerTick = 5.6
+	#Fuel curve exponent: >1 makes low throttle significantly more efficient
+	# Default: 1.35
+	# Range: 0.1 ~ 4.0
+	thrusterFuelThrottleExponent = 1.35
+	#Thrust multiplier for beam (focused/lense) thruster mode. Default 1.5 gives ~4.41 kpN at full throttle, above normal thrusters at ~2.94 kpN.
+	# Default: 1.5
+	# Range: 0.0 ~ 100.0
+	beamThrustMultiplier = 1.5
+	#Fuel efficiency multiplier for fluids tagged as dense thruster fuels
+	# Default: 1.45
+	# Range: 0.01 ~ 100.0
+	denseFuelEfficiencyMultiplier = 1.45
+	#Fuel efficiency multiplier for fluids tagged as light thruster fuels
+	# Default: 0.7
+	# Range: 0.01 ~ 100.0
+	lightFuelEfficiencyMultiplier = 0.7
+	#Maximum pivot angle in degrees when bearing receives full redstone differential
+	# Default: 90.0
+	# Range: 1.0 ~ 180.0
+	bearingMaxPivotAngleDeg = 90.0
+	#Bearing interpolation factor per tick (0 = no movement, 1 = snap)
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	bearingSmoothing = 0.25
+	#Bearing target debounce ticks before motion updates
+	# Default: 2
+	# Range: 0 ~ 40
+	bearingDebounceTicks = 2
+	#Maximum tilt angle in degrees for thruster gimbals
+	# Default: 30.0
+	# Range: 0.0 ~ 89.0
+	gimbalMaxTiltAngleDeg = 30.0
+	#Minimum vector length before gimbal applies steering
+	# Default: 0.001
+	# Range: 0.0 ~ 1.0
+	gimbalDeadzone = 0.001
+	#Gimbal interpolation factor per tick (0 = no movement, 1 = snap)
+	# Default: 0.2
+	# Range: 0.0 ~ 1.0
+	gimbalSmoothing = 0.2
+	#Gimbal target debounce ticks before motion updates
+	# Default: 2
+	# Range: 0 ~ 40
+	gimbalDebounceTicks = 2
+	#Base smoothing factor used by stabilizer mode before physics scaling
+	# Default: 0.12
+	# Range: 0.0 ~ 1.0
+	gimbalStabilizerSmoothing = 0.12
+	#Maximum stabilizer direction step per tick (vector units)
+	# Default: 0.08
+	# Range: 0.001 ~ 1.0
+	gimbalStabilizerMaxStepPerTick = 0.08
+	#Stabilizer proportional gain applied to tilt error
+	# Default: 1.15
+	# Range: 0.0 ~ 8.0
+	gimbalStabilizerProportionalGain = 1.15
+	#Stabilizer damping gain applied to tilt error rate
+	# Default: 0.85
+	# Range: 0.0 ~ 8.0
+	gimbalStabilizerDampingGain = 0.85
+	#Blend factor for cooperative stabilizer contract with sibling gimbals on the same sublevel
+	# Default: 0.65
+	# Range: 0.0 ~ 1.0
+	gimbalStabilizerContractBlend = 0.65
+	#Maximum additive throttle feather offset applied per thruster by stabilizer mode
+	# Default: 0.3
+	# Range: 0.0 ~ 1.0
+	gimbalStabilizerMaxFeatherOffset = 0.3
+	#Maximum static per-face angle reported by the bi-directional gearbox from gyro input
+	# Default: 90.0
+	# Range: 1.0 ~ 180.0
+	gearboxMaxStaticAngleDeg = 90.0
+	#Invert gearbox gyro-derived face angles and redstone outputs when the gearbox is powered
+	gearboxReverseWithRedstone = true
+	#FE consumed per tick at 100% throttle when a thruster is in focused/beam mode. Scales linearly with throttle.
+	# Default: 90.0
+	# Range: 1.0 ~ 100000.0
+	focusedModeFePerTick = 90.0
+	#Maximum FE a beam thruster can store internally
+	# Default: 100000
+	# Range: 1000 ~ 10000000
+	focusedModeFeCapacity = 100000
+	#Maximum multiplier allowed from propulsion upgrades. Tiers apply 2x, 4x, 8x, and 16x before this cap.
+	# Default: 16.0
+	# Range: 1.0 ~ 64.0
+	propulsionUpgradeMaxMultiplier = 16.0
+	#Alternator minimum RPM before it starts generating FE
+	# Default: 32.0
+	# Range: 1.0 ~ 1024.0
+	alternatorMinRpm = 32.0
+	#Alternator rated RPM where it reaches max FE/t output
+	# Default: 256.0
+	# Range: 8.0 ~ 4096.0
+	alternatorRatedRpm = 256.0
+	#Alternator FE generated per tick at rated RPM. Default 512000 = 512 kFE/t at rated speed.
+	# Default: 512000
+	# Range: 1 ~ 1000000
+	alternatorMaxFePerTick = 512000
+	#Alternator maximum stress impact (SU) drawn at rated RPM. Scales linearly with speed down to 0 at min RPM. Default 96800 SU at 256 RPM rated speed, balanced for 512 kFE/t output.
+	# Default: 96800.0
+	# Range: 1.0 ~ 1.0E7
+	alternatorMaxStressImpact = 96800.0

@@ -1,0 +1,18 @@
+filename = 'create_designed_decor-4.0.0-prerelease-1-neoforge-1.21.1.jar'
+name = 'Create: Designed Decor'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1', '1.21.2', '1.21.3', '1.21.4', '1.21.5', '1.21.6', '1.21.7', '1.21.8', '1.21.9', '1.21.10', '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '4.0.01'
+
+[download]
+hash = 'd24ffd03a2b4cb845cd276163ef1d059daeb2720ac2ed8584ad893b0a7613b22f4346f9e4a60dda7bf91623c84fd8fd6faef7252dc28881e46d87a37cc29483a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/4exet6R3/versions/1RtDMTDz/create_designed_decor-4.0.0-prerelease-1-neoforge-1.21.1.jar'
+
+[update.modrinth]
+mod-id = '4exet6R3'
+version = '1RtDMTDz'

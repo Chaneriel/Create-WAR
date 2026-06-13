@@ -1,0 +1,8 @@
+#Weather simulation. On a multiplayer server these are set by the server.
+[simulation]
+	#Allow storms to produce lightning (cosmetic only â€” no fire or damage).
+	lightning = true
+	#Storm spawn-rate multiplier. 0 = never, 1 = default, 2 = twice as often.
+	# Default: 1.0
+	# Range: 0.0 ~ 5.0
+	stormFrequency = 1.0

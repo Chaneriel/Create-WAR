@@ -1,0 +1,8 @@
+#Whether garden windmill and wind turbine get damaged by wind. This does not change the tornado pick up block strength
+windmilldamage = true
+#Whether wind sock tears in high wind or not. This does not change the tornado pick up block strength
+sockdamage = true
+#Recording time of tornado probe in ticks 3000 is about 2.5 min, 6000 is about 5 min
+# Default: 3000
+# Range: 3000 ~ 6000
+proberecordingtime = 3000

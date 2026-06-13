@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": {
+    "#c:diesel": {
+      "burn_time": 30000
+    },
+    "tfmg:kerosene": {
+      "burn_time": 26000
+    }
+  }
+}

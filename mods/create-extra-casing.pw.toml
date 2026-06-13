@@ -1,0 +1,21 @@
+filename = 'create_extra_casing-4.0.4.jar'
+name = 'Create Extra Casing'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '4.0.4'
+
+[download]
+hash = '4475da2d725228944163f49eac7614416afcdb955347c99c01a69caa553150fa46fbf7a96dd2618cf6b728ff3512535dcd231e9bcca163719813ebc5d711895c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/yEGVcr59/versions/8w86yown/create_extra_casing-4.0.4.jar'
+
+[update.modrinth]
+mod-id = 'yEGVcr59'
+version = '8w86yown'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'

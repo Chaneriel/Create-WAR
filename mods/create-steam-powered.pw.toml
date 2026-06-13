@@ -1,0 +1,18 @@
+filename = 'steampowered-1.21.1-3.2.1.jar'
+name = 'Create: Steam Powered'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '3.2.1'
+
+[download]
+hash = '9bcc8156f6cca2b30a65d189c5641465b3f3680a7a282a7d81ccac39b0ca54b29ce525f9a16e26411e24025b6cff13fb3747cca66d5defad4c4871c7129cacb1'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/J7eSzkL7/versions/w3zLn2Kv/steampowered-1.21.1-3.2.1.jar'
+
+[update.modrinth]
+mod-id = 'J7eSzkL7'
+version = 'w3zLn2Kv'

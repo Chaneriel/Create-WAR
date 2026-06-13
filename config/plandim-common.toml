@@ -1,0 +1,90 @@
+#GUI tuning. Affects the chunk-grid screen.
+[gui]
+	#Maximum chunks selectable in one copy.
+	# Default: 25
+	# Range: 1 ~ 121
+	max_chunks_selected = 25
+	#Side length of the visible chunk viewport (square).
+	# Default: 8
+	# Range: 3 ~ 16
+	viewport_size_chunks = 8
+	#Side length of the inner selectable zone (must be ≤ viewport_size_chunks).
+	# Default: 5
+	# Range: 1 ~ 11
+	selection_zone_size = 5
+
+#Per-player creative dimension generation. Flat layers mimic normal overworld elevation: deepslate below y=0, stone above, dirt+grass surface at y=63 (so copied terrain lines up and you can mine-test stone/deepslate).
+[dimension]
+	#Layer block IDs, bottom up. Length must match layer_heights.
+	layer_blocks = ["minecraft:bedrock", "minecraft:deepslate", "minecraft:stone", "minecraft:dirt", "minecraft:grass_block"]
+	#Layer heights, bottom up. Length must match layer_blocks.
+	layer_heights = [1, 63, 60, 3, 1]
+	#Biome resource location for all chunks in the dim.
+	biome = "minecraft:plains"
+
+#Modified-chunk detection. Used to highlight destination chunks in orange.
+[diff]
+	#Blocks per chunk that must differ from baseline before the chunk is flagged 'modified'.
+	# Default: 10
+	# Range: 1 ~ 100000
+	modified_threshold = 10
+
+#Copy-time transformations applied to source chunks before pasting.
+[copy]
+	#If true, replace ores and valuable blocks with nearby-similar blocks during copy.
+	#Prevents players from using the creative dim to scout / mine survival ores.
+	strip_ores = true
+	#If true, copied chests/barrels/shulkers/etc. arrive empty.
+	#Prevents looting structures by copying them.
+	clear_block_entity_inventories = true
+	#Explicit block IDs to strip (replaced with the most common solid neighbor).
+	#Vanilla ore list — extend for modded ores or use strip_tags.
+	strip_blocks = ["minecraft:coal_ore", "minecraft:iron_ore", "minecraft:gold_ore", "minecraft:redstone_ore", "minecraft:lapis_ore", "minecraft:diamond_ore", "minecraft:emerald_ore", "minecraft:copper_ore", "minecraft:deepslate_coal_ore", "minecraft:deepslate_iron_ore", "minecraft:deepslate_gold_ore", "minecraft:deepslate_redstone_ore", "minecraft:deepslate_lapis_ore", "minecraft:deepslate_diamond_ore", "minecraft:deepslate_emerald_ore", "minecraft:deepslate_copper_ore", "minecraft:nether_quartz_ore", "minecraft:nether_gold_ore", "minecraft:ancient_debris", "minecraft:raw_iron_block", "minecraft:raw_copper_block", "minecraft:raw_gold_block"]
+	#Block tag IDs (without #) whose members are stripped — catches mod-added ores.
+	#Default uses NeoForge convention tag c:ores.
+	strip_tags = ["c:ores"]
+	#If true, storage blocks (anything exposing an item inventory — chests, barrels,
+	#shulkers, drawers, Create vaults/depots/basins, hoppers, etc.) are not copied at
+	#all; those positions arrive as air. Unlike clear_block_entity_inventories this
+	#hides the LOCATION of storage, not just its contents — cloning someone's base
+	#must not reveal where they hide their chests.
+	remove_storage_blocks = true
+	#Block IDs exempt from remove_storage_blocks (still copied, inventories still
+	#cleared). Add planning-relevant machines here if copies feel too lossy,
+	#e.g. "create:depot", "create:basin", "create:mechanical_crafter".
+	storage_exempt_blocks = []
+
+#Dimension lifecycle settings.
+[lifecycle]
+	#If true, only ops may run /plan-dim reset.
+	admin_reset_only = true
+	#Auto-delete creative dims for players not seen in N days. 0 = never.
+	# Default: 0
+	# Range: 0 ~ 3650
+	inactive_purge_days = 0
+
+#GUI color overrides — hex without leading #. Alpha not used.
+[colors]
+	chunk_outside_zone = "444444"
+	chunk_selectable = "999999"
+	chunk_selected = "66cc66"
+	chunk_modified = "ee9933"
+	chunk_player_marker = "ffffff"
+	chunk_invalid_flash = "cc3333"
+	preview_outline = "ffd700"
+
+#Anti-abuse cooldowns.
+[cooldowns]
+	#Seconds after taking/dealing entity combat damage before /workshop enter is allowed
+	#(stops escaping a fight into the workshop). 0 = no cooldown.
+	# Default: 20
+	# Range: 0 ~ 3600
+	enter_combat_cooldown_seconds = 20
+	#Seconds between terrain copies per player (stops using copy as a cave/structure scanner).
+	#0 = no cooldown.
+	# Default: 600
+	# Range: 0 ~ 604800
+	copy_cooldown_seconds = 600
+	#If true, operators (permission level >= 2) skip the enter/copy cooldowns.
+	#Handy for testing and admins; normal players still get the cooldowns.
+	ops_bypass_cooldowns = true

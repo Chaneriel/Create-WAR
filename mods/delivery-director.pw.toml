@@ -1,0 +1,21 @@
+filename = 'delivery_director-1.0.1.jar'
+name = 'Create: Delivery Director'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.1'
+
+[download]
+hash = 'a883150b22c8ec130f368381c06c031b0e5e275ea1184747689e732560ea8db82603cc7b936f796ea137c20c2bcbfca59047911bbb49b71ef7438fe4ce55fc0d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/qRL8MwMB/versions/h8uBCjnS/delivery_director-1.0.1.jar'
+
+[update.modrinth]
+mod-id = 'qRL8MwMB'
+version = 'h8uBCjnS'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'

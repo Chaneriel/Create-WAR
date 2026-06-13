@@ -1,0 +1,18 @@
+filename = 'fluid-2.0.1.jar'
+name = 'Create: Fluid'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.0.1'
+
+[download]
+hash = '8010087150f81963e7d1674fe92662cfb27d9b162e1f4bd3764c7220ceacb3deb49297926d1dbdfb2b03d16388051ca6f99c0711f5a48abd5d6ef5b4f3dc3035'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/JlZEVjsF/versions/v5Re1hgs/fluid-2.0.1.jar'
+
+[update.modrinth]
+mod-id = 'JlZEVjsF'
+version = 'v5Re1hgs'

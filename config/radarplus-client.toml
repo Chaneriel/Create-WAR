@@ -1,0 +1,14 @@
+#Enable modded radar rendering
+circleRadarEnabled = true
+#Enable lightning overlay
+lightningOverlayEnabled = true
+#How long it takes for lightning to disappear
+# Default: 3
+# Range: 1 ~ 30
+lightningStrikeTime = 3
+#Controls how much radar signals degrade with distance
+# Default: 2
+# Range: 0 ~ 10
+rangeDegradationStrength = 2
+#Enable storm hazard icons on radar
+stormIconsEnabled = true

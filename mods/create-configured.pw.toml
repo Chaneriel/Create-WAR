@@ -1,0 +1,18 @@
+filename = 'create_configured-1.3.3.jar'
+name = 'Create Configured'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.3.3'
+
+[download]
+hash = 'aabf0a0ace94f0a510b1485431e02adf94860f49027c8ab841a768393672320c5b51121fee8ed736845c62b1a94df6cfe7e8e6c732a058b3b5969cff083797ad'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/TFEgPM26/versions/TnA8mWSb/create_configured-1.3.3.jar'
+
+[update.modrinth]
+mod-id = 'TFEgPM26'
+version = 'TnA8mWSb'

@@ -1,0 +1,35 @@
+["Server Features"]
+	#Enables PMW non-storm precipitation
+	overcastPrecip = true
+	#Makes cloud heights change based on the in game LCL
+	lclClouds = true
+	#How much damage wind does to players
+	# Default: 3
+	# Range: 0 ~ 10
+	windDamage = 3
+	#How much wind affects projectiles
+	# Default: 4
+	# Range: 0 ~ 10
+	projectileForce = 4
+
+["Storm Features"]
+	#Enables new damage method that makes storm damage more accurate (Heavy performance hit)
+	enhancedDamage = false
+	#Enable tornado widths randomly changing throughout the storm’s lifetime
+	variableTornadoWidths = true
+	#Makes lightning frequency scale with tornado strength
+	enhancedLightning = true
+	#Makes Supercell rain intensity change throughout its lifetime based on humidity
+	environmentalCells = true
+	#Tornado wobble strength (High values may cause tornadoes to move unrealistically)
+	# Default: 0.55
+	# Range: 0.11 ~ 1.0
+	wobblestrength = 0.55
+	#Chance for tornado to be revived (0=never, 1=always)
+	# Default: 0.2
+	# Range: 0.0 ~ 1.0
+	stormRevivalChance = 0.2
+	#The relative humidity needed for rain to occur in supercells
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	rainthreshold = 0.5

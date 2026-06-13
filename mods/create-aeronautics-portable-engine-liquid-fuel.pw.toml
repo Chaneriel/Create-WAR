@@ -1,0 +1,18 @@
+filename = 'portable_engine_liquid_fuel-2.0.0-neoforge-1.21.1.jar'
+name = 'Create Aeronautics: Portable Engine Liquid Fuel'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.0.0'
+
+[download]
+hash = 'f262adfdc441cf718d01549de2f52b81d71492825c4e24e42d5cf87fb02787e8f81a28071995124271caf42eb61840b47beaff6a86e709f74be221572748f7b1'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/HLbPoouI/versions/L6KPVFxI/portable_engine_liquid_fuel-2.0.0-neoforge-1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'HLbPoouI'
+version = 'L6KPVFxI'

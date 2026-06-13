@@ -1,0 +1,21 @@
+filename = 'cmlinkedremote-neoforge-2.0.0.jar'
+name = 'Create More: Linked Remote'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.0.0'
+
+[download]
+hash = 'cc923737f25d0e72a294c5d67bd75e95abe2f9d2d0e17fec0b1e4467c31f017fbdc185750e8b4605ca20115c64278c750e3f03a89dcdd432700e23ac23b5741c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/4hoqvPkW/versions/NtJF029e/cmlinkedremote-neoforge-2.0.0.jar'
+
+[update.modrinth]
+mod-id = '4hoqvPkW'
+version = 'NtJF029e'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'

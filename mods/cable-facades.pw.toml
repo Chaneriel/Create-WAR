@@ -1,0 +1,18 @@
+filename = 'cable_facades-1.21.1-NeoForge-2.0.2.jar'
+name = 'Cable Facades'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.0.2'
+
+[download]
+hash = '51f8469d2e8c538b3e311a3e4de4ee899ddf86b9f605e353ecb1a42b0d4ee481baef8648836c43411992786d78982cedb6021a503d3b5a057b48b5ce33fa63fb'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/twipgzWx/versions/bz5PtFcr/cable_facades-1.21.1-NeoForge-2.0.2.jar'
+
+[update.modrinth]
+mod-id = 'twipgzWx'
+version = 'bz5PtFcr'

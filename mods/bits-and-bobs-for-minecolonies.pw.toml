@@ -1,0 +1,18 @@
+filename = 'bits-and-bobs-1.21.1-1.0.5.jar'
+name = 'Bits and Bobs for Minecolonies'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'bits-and-bobs-1.21.1-1.0.5.jar'
+
+[download]
+hash = 'c994c1d5e8fcf4891d661e071d7109a6d3766ea9'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8081049
+project-id = 1411734

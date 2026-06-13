@@ -1,0 +1,34 @@
+[radar]
+	#Disables all custom rendering and optimizations from PMWeatherAPI! Also disables all overlays and custom radar modes!
+	use_original_pmweather_rendering = false
+	#Use's PMWeather's ColorTables instead of ColorMaps. You may or may not see a loss of performance!
+	use_original_pmweather_colors = false
+	#Disables custom radar mode rendering
+	disable_custom_radar_mode_rendering = false
+	#Darkens biomes by 50% before displaying on the radar. This option also makes it more noisier.
+	darken_biomes_on_radar = false
+
+[debug]
+	#Shows the radar mode ID
+	show_radar_mode_id = false
+	#The side to render the radar mode ID on
+	#Allowed Values: NORTH, EAST, SOUTH, WEST
+	radar_mode_id_side = "NORTH"
+	#Disables all overlays when client radar debugging is on
+	disable_overlays_when_debugging = true
+	#Shows the location of all nearby radars as an overlay
+	debug_radars = false
+	#Shows the location of all nearby WSRs as an overlay
+	debug_wsrs = false
+	#Shows the location of all nearby metars as an overlay
+	debug_metars = false
+	#Shows the location of all nearby storms as an overlay
+	debug_storms = false
+	#Used for debugging
+	debug = false
+
+[experimental]
+	#Only renders reflectivity/velocity/IR data. Experimental
+	transparent_background = false
+	#Lowers the radar to be closer to the actual block. May break overlays!
+	lower_radar = false

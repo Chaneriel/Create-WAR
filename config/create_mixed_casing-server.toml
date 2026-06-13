@@ -1,0 +1,14 @@
+[General]
+	#Enable a special Encasing Mode when the player have a wrench in main hand and pipe in offhand. (shaft/cogwheel support will be added soon)
+	wrench_encasing_behavior = true
+	#Enable an additionnal behavior in application recipe that allow to process the recipe using the block inside the clicked copycat instead of the copycat itself.
+	#(copycat+ compatible)
+	copycat_application_recipe_behavior = true
+	#Enable an additionnal behavior in application recipe that allow to process the recipe using the casing applied on the clicked belt instead of the belt itself.
+	belt_application_recipe_behavior = true
+	#Enable an additionnal behavior in application recipe that allow to process the recipe using the casing applied on the clicked shaft/coghweel/pipe instead of the encased block itself.
+	encased_application_recipe_behavior = true
+	#Enable an additionnal behavior in application recipe that allow to process gearbox using the item application recipes of the regular casing when possible.
+	gearbox_application_recipe_behavior = true
+	#Change the application recipe output behavior to send any additional item output in the player inventory if not full instead of spawning in the world.
+	application_recipe_output_behavior = true

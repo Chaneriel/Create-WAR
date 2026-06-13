@@ -1,0 +1,80 @@
+[destruction]
+	#Turn all block destruction on or off
+	blockdestruction = true
+	#How far away from players (in blocks) storms stop loading chunks and destroying blocks
+	# Default: 2048
+	# Range: 150 ~ 9999999
+	chunkdistance = 2048
+	#Turns on/off all additional methods for block grabbing
+	modgrabbing = true
+	#Turns on/off all living entity grabbing
+	modentitygrabbing = true
+	#If flying blocks hurt player
+	blockshurt = true
+	#Enables special rules for blocks in special rule lists like dirt
+	dirtgrabbing = true
+	#Enables block grabbing under overhangs
+	overhanggrabbing = true
+	#Enables ground scouring (does not disable block grabbing)
+	groundscouring = true
+	#Enables tornadoes violently digging for players when close
+	proximitygrabbing = false
+	#How far away from players in x and z direction (in blocks) tornadoes try to dig to players
+	# Default: 5
+	# Range: 1 ~ 20
+	proximitygrabbingxz = 5
+	#How far away from players in y direction (in blocks) tornadoes try to dig to players
+	# Default: 20
+	# Range: 1 ~ 320
+	proximitygrabbingy = 20
+	#When trying to do destruction under overhangs, how far down from the roof should tornadoes scan blocks. Higher value will cause destruction in lower areas but lag much more
+	# Default: 10
+	# Range: 0 ~ 310
+	downscanning = 10
+	#Multiplier of block strengths
+	# Default: 1.0
+	# Range: 0.8 ~ 1.5
+	blockstrengthmultiplier = 1.0
+	#List of blocks that will follow some refined grabbing rules. Use this for blocks you don't want to get ripped out of ground. Make sure they are blacklisted in the vanilla PMW config.
+	specialruleblocks = ["minecraft:gravel", "minecraft:farmland", "minecraft:dirt_path"]
+	#List of block tags that will follow some refined grabbing rules. Use this for blocks you don't want to get ripped out of ground, like dirt, stone... Make sure they are blacklisted in the vanilla PMW config.
+	specialruleblocktags = ["minecraft:dirt", "minecraft:base_stone_overworld", "minecraft:terracotta", "minecraft:badlands_terracotta", "minecraft:ice", "minecraft:sand"]
+	#This option used to have more accurate damage. It is a legacy option and does not do much right now anymore, it also causes lag
+	#PMW Extra is loaded, this option is ignored here, set it in the Extra config: Enhanced damage
+	realwinddamage = false
+
+[othermechanics]
+	#If tornadoes are able to swing open the doors. If under overhang grabbing is disabled, this is also disabled
+	dooropening = true
+	#Whether logs should turn into rotted logs. Rotted logs will still turn into saplings or disappear. Turning this OFF will stop natural tree regrowth
+	logdecay = true
+	#If PMW storms should also spawn vanilla lightning bolts (will cause fire)
+	vanillabolts = false
+	#Multiplier of tornado forward speeds
+	# Default: 1.0
+	# Range: 0.8 ~ 5.0
+	stormspeedmultiplier = 1.0
+	#Distance at which a weaker tornadic storm will search and start moving towards a stronger one. If merge = ON they will always try to merge if distance < storm width1+ storm width2
+	# Default: 100
+	# Range: 1 ~ 10000
+	stormsearchdistance = 100
+	#If storms can merge into one if close enough
+	stormsmerge = true
+	#If storms that merge immediately target player
+	mergedcellstargetplayer = false
+	#Vanilla lightning chance to appear in PM storms in 1 to x. 1 means that the world will burn.
+	# Default: 10
+	# Range: 1 ~ 100
+	vanillaboltchance = 10
+
+[wind]
+	#Enables wind gusts and more wind variance by height. Makes building in mountains more dangerous
+	windgusts = true
+	#Minimum wind speed [mph] for naturally spawned tornadoes
+	# Default: 55
+	# Range: 55 ~ 208
+	minwindspeed = 55
+	#Maximum wind speed [mph] for naturally spawned tornadoes. If max is lower than min, max values will be used for spawning
+	# Default: 321
+	# Range: 56 ~ 1000
+	maxwindspeed = 321

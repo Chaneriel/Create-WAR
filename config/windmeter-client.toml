@@ -1,0 +1,32 @@
+#Wind speed units to be used on displays (mph, kmh, meters per second, bft, kts)
+#Allowed Values: MPH, KMH, MPS, BEAUFORT, KTS
+windunits = "MPH"
+#Where on screen should wind data from probe monitor display
+#Allowed Values: TOP_MIDDLE, TOP_LEFT, TOP_RIGHT, BOTTOM_RIGHT, BOTTOM_LEFT
+datadisplayposition = "TOP_LEFT"
+#If radar should show up on screen when holding radar block in hand
+mobileradar = true
+#How wind direction is displayed on the wind logger
+#Allowed Values: STRING, NUMBER
+directiondisplay = "STRING"
+#Temperature units to be used on displays
+#Allowed Values: CELSIUS, FAHRENHEIT, KELVIN
+tempunits = "FAHRENHEIT"
+#Color of numbers on wind display. Input number must be color in base 10 format. Use online converters to translate hexadecimal to decimal. Example color 0xff6347 (16) -> 16737095 (10)
+# Default: 16737095
+# Range: 0 ~ 16777215
+numbercolors = 16737095
+#Color of text on wind display. Input number must be color in base 10 format. Use online converters to translate hexadecimal to decimal. Example color 0xac16ff (16) -> 11278079 (10)
+# Default: 11278079
+# Range: 0 ~ 16777215
+textcolor = 11278079
+#Whether wind display digits should be capped at 999 or not (does not apply to weather display
+screencap = true
+#Whether wind display digits change color based on wind speed
+dynamictextcolor = true
+#If carbon fibre wind turbine sparks at high wind speeds
+sparks = true
+#Volume of wind chimes
+# Default: 100
+# Range: 0 ~ 100
+chimevolume = 100

@@ -1,0 +1,24 @@
+#The max windspeed villagers can experience before taking shelter
+# Default: 50
+# Range: 25 ~ 80
+maxWindSpeed = 50
+#How often Villagers check windspeed (in secconds)
+# Default: 10
+# Range: 1 ~ 60
+windcheckinterval = 10
+#How far villagers will search for shelter during storms (in blocks)
+# Default: 75
+# Range: 16 ~ 180
+shelterSearchRadius = 75
+#How often hiding villagers check if the storm has passed (in seconds)
+# Default: 20
+# Range: 1 ~ 60
+inStormCheckIntervalSeconds = 20
+#Time a villager has to reach shelter before being teleported (in seconds)
+# Default: 15
+# Range: 5 ~ 60
+villagerTimeoutTimeSeconds = 15
+#Whether villagers should check windspeed to detect storms
+checkWindspeed = true
+#Whether to show debug messages in the console
+enableDebugMessages = false

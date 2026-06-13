@@ -1,0 +1,25 @@
+filename = 'jmi-neoforge-1.21.1-1.9.jar'
+name = 'JourneyMap Integration'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.1-1.9+neoforge'
+
+[download]
+hash = '1e2d32012d76be0ac50aa80da07b12a2e4c38710ff15f3db66519cf9c0071c80a5cadf3410d248318a65443e436c7610c241fc48a119761f3fadc8fb1a12f7b2'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/M1ZKbfkJ/versions/x1p0RNwd/jmi-neoforge-1.21.1-1.9.jar'
+
+[update.modrinth]
+mod-id = 'M1ZKbfkJ'
+version = 'x1p0RNwd'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'lfHFW1mp'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LOpKHB2A'
+type = 'OPTIONAL'

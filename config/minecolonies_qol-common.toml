@@ -1,0 +1,15 @@
+#General configuration options.
+[General]
+	#How fast should workers place blocks,      0 - max speed   30  - most optimal      150 - default minecolonies setting,        1000+ - ultra slow
+	# Default: 30
+	# Range: 0 ~ 1000
+	"block place speed" = 30
+	#How fast should workers break blocks,      0 - max speed   100 - most optimal      500 - default minecolonies setting,        1000+ - ultra slow
+	# Default: 100.0
+	# Range: 0.0 ~ 1000.0
+	"block break speed" = 100.0
+	#for safety sake keep unlocking in order, 
+	# "base example: research locations" = [branch/nameOfResearch]
+	#"single example: research locations" = [technology/hittingiron] 
+	#"multiple example: research locations" = ["technology/hittingiron","technology/ability"]
+	"research locations" = []

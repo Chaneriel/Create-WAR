@@ -1,0 +1,15 @@
+["Client Features"]
+	#How much your screen shakes
+	# Default: 1.5
+	# Range: 0.0 ~ 8.0
+	shakeIntensity = 1.5
+	#Renders PMW tornado dust clouds
+	dustClouds = true
+	#Enables morning fog
+	morningFog = true
+
+["Experimental Features"]
+	#Renders tornado subvorticies (Can only see them if Dynamic tornadoes is on
+	renderSubvorts = false
+	#Makes it so the tornado can go transparent at times
+	wonkyTornadoes = false

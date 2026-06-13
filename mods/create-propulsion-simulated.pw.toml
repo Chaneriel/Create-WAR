@@ -1,0 +1,18 @@
+filename = 'createpropulsion-1.1.2.jar'
+name = 'Create Propulsion: Simulated'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.2'
+
+[download]
+hash = '7811dfa200185f1996cce68af1d8466c829ab36500c83a4e3351645ed9d9c28394c62b0b6afeebd2027a76fb3f5ea4e2055d511ff950db84097dde153090b421'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ApkoHNO9/versions/NnVVqPxs/createpropulsion-1.1.2.jar'
+
+[update.modrinth]
+mod-id = 'ApkoHNO9'
+version = 'NnVVqPxs'

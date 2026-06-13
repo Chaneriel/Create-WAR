@@ -1,0 +1,21 @@
+filename = 'create_blazing_hot-0.7.4+neoforge-mc1.21.1.jar'
+name = 'Create: Blazing Hot'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '0.7.4+neoforge-mc1.21.1'
+
+[download]
+hash = '901706725c77ac83952e50eabcc39b584ab61ef69f3a2e74b4d2fb78c529b0f4a60c9aa93c7f398e9d9b8750a002e760caf3ca38b3b2dfc7b8eadb01cc41d9f1'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/LmT6oZrX/versions/V9HyDSFg/create_blazing_hot-0.7.4%2Bneoforge-mc1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'LmT6oZrX'
+version = 'V9HyDSFg'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'

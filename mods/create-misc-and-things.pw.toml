@@ -1,0 +1,21 @@
+filename = 'create_things_and_misc-4.1.0-neoforge-1.21.1.jar'
+name = 'Create: Misc and Things'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '4.1.0'
+
+[download]
+hash = '61349587be1d3271e00b3d99d09922206d6c1227669e6c9ff154fa011f141658eefc0f162059f5696e361297189acb9ffffa10a435218eee8d414dfc9973f97b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/uWrs8XlB/versions/ldIAxQ6C/create_things_and_misc-4.1.0-neoforge-1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'uWrs8XlB'
+version = 'ldIAxQ6C'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'

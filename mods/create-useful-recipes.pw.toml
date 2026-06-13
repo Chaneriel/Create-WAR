@@ -1,0 +1,18 @@
+filename = 'create_useful_recipes_1.21.1_0.0.1.jar'
+name = 'Create: Useful Recipes'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.0.1'
+
+[download]
+hash = '7ae24346429c14fcf77a877bcf75e960ca770e218f08afd61196bf9e21aa3b4e5fd801bf596c218e28c2670581da9564449bae6a5208eb7bcb98476213976bc0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/K2zV8gTP/versions/XIy3Scpg/create_useful_recipes_1.21.1_0.0.1.jar'
+
+[update.modrinth]
+mod-id = 'K2zV8gTP'
+version = 'XIy3Scpg'

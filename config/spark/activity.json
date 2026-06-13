@@ -1,0 +1,93 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Chaneriel",
+      "uniqueId": "cf2ff658-6274-4f41-af07-3624f224c524"
+    },
+    "time": 1779042232471,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/6AtVpRgcA7"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Chaneriel",
+      "uniqueId": "cf2ff658-6274-4f41-af07-3624f224c524"
+    },
+    "time": 1779041400881,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/Q2mMn6y5RA"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Chaneriel",
+      "uniqueId": "cf2ff658-6274-4f41-af07-3624f224c524"
+    },
+    "time": 1779040476981,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/NRgLXyRN67"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Chaneriel",
+      "uniqueId": "cf2ff658-6274-4f41-af07-3624f224c524"
+    },
+    "time": 1779039397237,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/kgMwR2vJQK"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Chaneriel",
+      "uniqueId": "cf2ff658-6274-4f41-af07-3624f224c524"
+    },
+    "time": 1779039352841,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/MgMw2qRtPB"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Chaneriel",
+      "uniqueId": "cf2ff658-6274-4f41-af07-3624f224c524"
+    },
+    "time": 1778644808537,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/TheAgvMl7Q"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Chaneriel",
+      "uniqueId": "cf2ff658-6274-4f41-af07-3624f224c524"
+    },
+    "time": 1778644787201,
+    "type": "Health report",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/pn7pflQXPN"
+    }
+  }
+]

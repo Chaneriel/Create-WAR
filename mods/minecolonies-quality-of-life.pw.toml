@@ -1,0 +1,18 @@
+filename = 'minecolonies_qol-1.0.0___1.1.921-1.21.1.jar'
+name = 'Minecolonies Quality of life'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'minecolonies_qol-1.0.0___1.1.921-1.21.1.jar'
+
+[download]
+hash = '15906ea83f003cc357acab225808069ec5d8103e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6406921
+project-id = 1239757

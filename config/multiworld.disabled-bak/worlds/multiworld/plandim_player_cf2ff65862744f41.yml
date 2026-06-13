@@ -1,0 +1,5 @@
+namespace: multiworld
+path: plandim_player_cf2ff65862744f41
+environment: plandim:creative_flat
+seed: -199362220
+custom_generator: plandim:plain_flat
